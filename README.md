@@ -26,7 +26,26 @@
     cd housecostpredict/
     ```
 
-    .venv
+- Créer l'environnement virtuel
+
+    ```shell
+    python -m venv .venv
+    ```
+
+- Activer l'environnement virtuel
+
+    - Sur Windows
+
+    ```shell
+    .\.venv\Scripts\activate
+    ```
+
+    - Sur macOS/Linux
+
+    ```shell
+    source .venv/bin/activate
+    ```
+
 
 - Lancez la commande suivante pour installer toutes les librairies nécessaires:
 
@@ -40,5 +59,10 @@
 
     ```shell
     python -m src.main
+    ```
+- Désactiver l'environnement virtuel
+
+    ```shell
+    deactivate
     ```
 

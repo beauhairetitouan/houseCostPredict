@@ -46,6 +46,5 @@ clf = RandomForestClassifier(
      ccp_alpha=0.0,
      max_samples=None,)
 
-# Entraîner le modèle
-clf.fit(X_train, y_train)
+
 
