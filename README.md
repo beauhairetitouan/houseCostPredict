@@ -12,6 +12,12 @@
 
 ![Python](https://img.shields.io/badge/Language-Python-green.svg)
 [![Kaggle Dataset](https://img.shields.io/badge/Kaggle-Dataset-blue.svg)](https://www.kaggle.com/datasets/zafarali27/house-price-prediction-dataset)
+![Pandas](https://img.shields.io/badge/Library-Pandas-purple.svg)
+![Scikit-learn](https://img.shields.io/badge/Library-Scikit--learn-red.svg)
+[![KaggleHub](https://img.shields.io/badge/KaggleHub-Project-yellow.svg)](https://www.kaggle.com/kagglehub/ton-projet)
+
+
+
 
 
 
