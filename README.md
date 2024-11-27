@@ -10,6 +10,31 @@
 
 ### Structure du projet
 
+![Python](https://img.shields.io/badge/Language-Python-green.svg)
+[![Kaggle Dataset](https://img.shields.io/badge/Kaggle-Dataset-blue.svg)](https://www.kaggle.com/datasets/zafarali27/house-price-prediction-dataset)
+![Pandas](https://img.shields.io/badge/Library-Pandas-purple.svg)
+![Scikit-learn](https://img.shields.io/badge/Library-Scikit--learn-red.svg)
+[![KaggleHub](https://img.shields.io/badge/KaggleHub-Project-yellow.svg)](https://www.kaggle.com/kagglehub/ton-projet)
+
+
+- **`housecostpredict/`** : Le répertoire racine du projet
+    - **`.venv/`** : Le répertoire de configuration de l'environnement virtuel
+    - **`data/`** : Le répertoire qui sauvegarde les états du jeu de données
+    - **`docs/`** : Le répertoire qui sauvegarde toute la documentation du projet
+        - **`Sujet_Projet_IA_BEAUHAIRE_ROVIRA`** : Le fichier qui décrit et introduit le sujet
+    - **`lib/`** : Le répertoire qui sauvegarde les configurations d'installation des librairies
+        - **`requirements.txt`** : Le fichier qui liste les librairies à installer avec leur version
+    - **`src/`** : Le répertoire principal où le code source du projet est contenu
+        - **`models/`** : 
+        - 
+        - 
+        - 
+        - 
+    - **`.gitignore`** : Le fichier qui liste les répertoires et fichiers à ignorer dans git
+    - **`README.md`** : Le fichier qui introduit le projet
+
+
+
 
 ### Installation du projet
 
@@ -36,15 +61,15 @@
 
     - Sur Windows
 
-    ```shell
-    .\.venv\Scripts\activate
-    ```
+        ```shell
+        .\.venv\Scripts\activate
+        ```
 
     - Sur macOS/Linux
 
-    ```shell
-    source .venv/bin/activate
-    ```
+        ```shell
+        source .venv/bin/activate
+        ```
 
 
 - Lancez la commande suivante pour installer toutes les librairies nécessaires:
