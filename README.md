@@ -10,6 +10,11 @@
 
 ### Structure du projet
 
+![Python](https://img.shields.io/badge/Language-Python-green.svg)
+[![Kaggle Dataset](https://img.shields.io/badge/Kaggle-Dataset-blue.svg)](https://www.kaggle.com/datasets/zafarali27/house-price-prediction-dataset)
+
+
+
 
 ### Installation du projet
 
@@ -36,15 +41,15 @@
 
     - Sur Windows
 
-    ```shell
-    .\.venv\Scripts\activate
-    ```
+        ```shell
+        .\.venv\Scripts\activate
+        ```
 
     - Sur macOS/Linux
 
-    ```shell
-    source .venv/bin/activate
-    ```
+        ```shell
+        source .venv/bin/activate
+        ```
 
 
 - Lancez la commande suivante pour installer toutes les librairies nécessaires:
