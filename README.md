@@ -26,7 +26,7 @@
     cd housecostpredict/
     ```
 
-- Créer le répertoire .venv
+- Créer l'environnement virtuel
 
     ```shell
     python -m venv .venv
@@ -34,7 +34,7 @@
 
 - Activer l'environnement virtuel
 
-    - Sur windows
+    - Sur Windows
 
     ```shell
     .\.venv\Scripts\activate
@@ -46,12 +46,6 @@
     source .venv/bin/activate
     ```
 
-
-- Récupérer les lib de l'environnement 
-
-    ```shell
-    pip freeze > ./lib/requirements.txt
-    ```
 
 - Lancez la commande suivante pour installer toutes les librairies nécessaires:
 
@@ -65,5 +59,10 @@
 
     ```shell
     python -m src.main
+    ```
+- Désactiver l'environnement virtuel
+
+    ```shell
+    deactivate
     ```
 
