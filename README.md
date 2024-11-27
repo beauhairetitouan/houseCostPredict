@@ -28,6 +28,12 @@
 
     .venv
 
+- Récupérer les lib de l'environnement 
+
+    ```shell
+        pip freeze > ./lib/requirements.txt
+    ```
+
 - Lancez la commande suivante pour installer toutes les librairies nécessaires:
 
     ```shell
