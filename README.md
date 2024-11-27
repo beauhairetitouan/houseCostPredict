@@ -17,7 +17,21 @@
 [![KaggleHub](https://img.shields.io/badge/KaggleHub-Project-yellow.svg)](https://www.kaggle.com/kagglehub/ton-projet)
 
 
-
+- **`housecostpredict/`** : Le répertoire racine du projet
+    - **`.venv/`** : Le répertoire de configuration de l'environnement virtuel
+    - **`data/`** : Le répertoire qui sauvegarde les états du jeu de données
+    - **`docs/`** : Le répertoire qui sauvegarde toute la documentation du projet
+        - **`Sujet_Projet_IA_BEAUHAIRE_ROVIRA`** : Le fichier qui décrit et introduit le sujet
+    - **`lib/`** : Le répertoire qui sauvegarde les configurations d'installation des librairies
+        - **`requirements.txt`** : Le fichier qui liste les librairies à installer avec leur version
+    - **`src/`** : Le répertoire principal où le code source du projet est contenu
+        - **`models/`** : 
+        - 
+        - 
+        - 
+        - 
+    - **`.gitignore`** : Le fichier qui liste les répertoires et fichiers à ignorer dans git
+    - **`README.md`** : Le fichier qui introduit le projet
 
 
 
