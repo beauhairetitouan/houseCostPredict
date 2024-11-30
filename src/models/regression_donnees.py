@@ -32,4 +32,4 @@ def regress(house_df):
     # Validation croisée
     scores = cross_val_score(regressor, X, y_reg, cv=5)
 
-    return train_score, test_score, scores.mean()
+    return train_score, test_score, scores.mean(), regressor

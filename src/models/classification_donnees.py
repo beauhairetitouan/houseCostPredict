@@ -24,4 +24,6 @@ def classify(house_df):
     )
     clf.fit(X_train, y_train)
 
-    return clf.score(X_train, y_train), clf.score(X_test, y_test)
+    return clf.score(X_train, y_train), clf.score(X_test, y_test), clf
+
+

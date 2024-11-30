@@ -13,4 +13,6 @@ def load_data():
     # Lire le fichier CSV avec pandas
     house_df = pd.read_csv(csv_path)
 
+    house_df = house_df.drop(['id'], axis=1)
+
     return house_df
