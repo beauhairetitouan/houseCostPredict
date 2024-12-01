@@ -29,7 +29,7 @@ def main():
     prediction = clf.predict([users_house])
     prediction_price = regressor.predict([users_house])
 
-    print(f"La maison de l'utilisateur est estimée à {prediction[0]} dollars")
+    print(f"La maison de l'utilisateur est estimée à {prediction_price[0]} dollars")
     
 
 
