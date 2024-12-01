@@ -5,7 +5,7 @@
 
 [Sujet du projet](docs/Sujet_Projet_IA_BEAUHAIRE_ROVIRA.pdf)
 
-[Données du projet](https://www.kaggle.com/datasets/zafarali27/house-price-prediction-dataset)
+[Données du projet](https://www.kaggle.com/datasets/sukhmandeepsinghbrar/housing-price-dataset)
 
 
 ### Structure du projet
@@ -85,6 +85,8 @@
     ```shell
     python -m src.main
     ```
+    Une fenêtre va s'ouvrir...
+
 - Désactiver l'environnement virtuel
 
     ```shell
