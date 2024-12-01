@@ -6,6 +6,7 @@ def regress(house_df):
    
     # Extraction des caractéristiques et de la cible
     X = house_df.drop(['price', 'price_category'], axis=1).values
+    classe = house_df['price_category'].values[0]
     y_reg = house_df['price'].values
 
 
@@ -14,8 +15,8 @@ def regress(house_df):
     X_train, X_test, y_train_reg, y_test_reg = train_test_split(X, y_reg, test_size=0.2, random_state=42)
 
     # Sauvegarder les données 
-    save_data(X_train, y_train_reg, "outputs", "regression_train")
-    save_data(X_test, y_test_reg, "outputs", "regression_test")
+    save_data(X_train, y_train_reg, "outputs", "regression_train", classe)
+    save_data(X_test, y_test_reg, "outputs", "regression_test", classe)
 
     # Régression avec RandomForestRegressor
     regressor = RandomForestRegressor(
