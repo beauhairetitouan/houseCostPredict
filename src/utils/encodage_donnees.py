@@ -15,7 +15,19 @@ def preprocess_data(house_df):
         house_df[col] = le.fit_transform(house_df[col])
         label_encoders[col] = le
 
-    # Création de la variable catégorielle 'price_category' en fonction du prix
-    house_df['price_category'] = pd.qcut(house_df['price'], q=4, labels=[0, 1, 2, 3])
 
-    return house_df, label_encoders
+    
+    # Création de la variable catégorielle 'price_category' en fonction du prix
+    house_df['price_category'] = pd.qcut(house_df['price'], q=3 , labels=[0, 1, 2])
+
+    house_cat1 = house_df[house_df['price_category'] == 0]
+
+    house_cat2 = house_df[house_df['price_category'] == 1]
+
+    house_cat3 = house_df[house_df['price_category'] == 2]
+
+
+
+
+
+    return house_df, label_encoders, house_cat1, house_cat2, house_cat3

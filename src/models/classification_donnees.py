@@ -11,8 +11,8 @@ def classify(house_df):
     X_train, X_test, y_train, y_test = train_test_split(X, y_class, test_size=0.2, random_state=42)
 
     # Sauvegarder les données
-    save_data(X_train, y_train, "outputs", "classification_train")
-    save_data(X_test, y_test, "outputs", "classification_test")
+    save_data(X_train, y_train, "outputs", "classification_train", None)
+    save_data(X_test, y_test, "outputs", "classification_test", None)
 
     # Modèle et entraînement
     clf = RandomForestClassifier(
