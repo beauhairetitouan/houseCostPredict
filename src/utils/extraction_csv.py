@@ -3,7 +3,8 @@ import pandas as pd
 
 def save_data(X, y, output_dir, prefix):
     os.makedirs(output_dir, exist_ok=True)
-    
+
+
     # Sauvegarder X
     X_df = pd.DataFrame(X)
     X_path = os.path.join(output_dir, f"{prefix}_X.csv")
