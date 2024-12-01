@@ -20,16 +20,16 @@
 - **`housecostpredict/`** : Le répertoire racine du projet
     - **`.venv/`** : Le répertoire de configuration de l'environnement virtuel
     - **`data/`** : Le répertoire qui sauvegarde les états du jeu de données
+        - **`Housing.csv`** : Fichier du jeu de données initial
     - **`docs/`** : Le répertoire qui sauvegarde toute la documentation du projet
         - **`Sujet_Projet_IA_BEAUHAIRE_ROVIRA`** : Le fichier qui décrit et introduit le sujet
     - **`lib/`** : Le répertoire qui sauvegarde les configurations d'installation des librairies
         - **`requirements.txt`** : Le fichier qui liste les librairies à installer avec leur version
+    - **`outputs/`** : Répertoire sauvegardant les données d'entrainements et de tests
     - **`src/`** : Le répertoire principal où le code source du projet est contenu
-        - **`models/`** : 
-        - 
-        - 
-        - 
-        - 
+        - **`models/`** : Répertoire regroupant les différents models d'apprentissage
+        - **`utils/`** : Répertoire qui contient les outils nécessaires aux imports, encodage des données, entrées de l'utilisateur et l'extraction des fichiers csv
+        - **`main`** : Fichier principal (controller) qui gère les étapes du programme une par une 
     - **`.gitignore`** : Le fichier qui liste les répertoires et fichiers à ignorer dans git
     - **`README.md`** : Le fichier qui introduit le projet
 
@@ -45,19 +45,21 @@
     git clone https://github.com/beauhairetitouan/houseCostPredict.git
     ```
 
-- Déplacer vous vers le dossier housecostpredict/
+- Déplacez vous vers le dossier housecostpredict/
 
     ```shell
     cd housecostpredict/
     ```
 
-- Créer l'environnement virtuel
+- Téléchargez et installez Python avec la version minimale 3.11.4
+
+- Créez l'environnement virtuel
 
     ```shell
     python -m venv .venv
     ```
 
-- Activer l'environnement virtuel
+- Activez l'environnement virtuel
 
     - Sur Windows
 
@@ -87,7 +89,7 @@
     ```
     Une fenêtre va s'ouvrir...
 
-- Désactiver l'environnement virtuel
+- Désactivez l'environnement virtuel
 
     ```shell
     deactivate
